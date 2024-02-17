@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ANNOTATION_DOCUMENT AUTHOR="unspecified"
-    DATE="2023-06-07T10:18:22+01:00" FORMAT="3.0" VERSION="3.0"
+    DATE="2024-02-05T14:25:05+01:00" FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="file:///Users/Alice 1/sciebo/B-02/B-02 Projekt/Datooga/Data/DonkeyHyena/2013-06-06_HM_digeeda.wav"
-            MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./2013-06-06_HM_digeeda.wav"/>
+            MEDIA_URL="file:///Users/nicolaswerner/Coding/Uni/ElanConversion/files/sample.eaf"
+            MIME_TYPE="unknown" RELATIVE_MEDIA_URL="./sample.eaf"/>
         <PROPERTY NAME="tcc">Charis SIL-true</PROPERTY>
         <PROPERTY NAME="en">Times New Roman</PROPERTY>
         <PROPERTY NAME="languages">tcc en</PROPERTY>
