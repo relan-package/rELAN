@@ -1,0 +1,551 @@
+LANG_REF	LINGUISTIC_TYPE_REF	PARENT_REF	ANNOTATION_ID	ANNOTATION_REF	PREVIOUS_ANNOTATION	TIME_SLOT_REF1	TIME_SLOT_REF2	anno_ref_numeric	mb@H	utterance@H	GRAID@H	GRAID Qs
+tcc	morph-item	A_morph-type	a1	a2	NA	NA	NA	2	qayi	NA	NA	NA
+tcc	morph-item	A_morph-type	a3	a4	NA	NA	NA	4	garay	NA	NA	NA
+tcc	morph-item	A_morph-type	a5	a6	NA	NA	NA	6	diiy	NA	NA	NA
+tcc	morph-item	A_morph-type	a7	a8	NA	NA	NA	8	-an	NA	NA	NA
+tcc	morph-item	A_morph-type	a9	a10	NA	NA	NA	10	-ga	NA	NA	NA
+tcc	morph-item	A_morph-type	a11	a12	NA	NA	NA	12	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	a13	a14	NA	NA	NA	14	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	a15	a16	NA	NA	NA	16	balool	NA	NA	NA
+tcc	morph-item	A_morph-type	a17	a18	NA	NA	NA	18	-i	NA	NA	NA
+tcc	morph-item	A_morph-type	a19	a20	NA	NA	NA	20	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	a21	a22	NA	NA	NA	22	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	a23	a24	NA	NA	NA	24	urj	NA	NA	NA
+tcc	morph-item	A_morph-type	a25	a26	NA	NA	NA	26	-i	NA	NA	NA
+tcc	morph-item	A_morph-type	a27	a28	NA	NA	NA	28	buun	NA	NA	NA
+tcc	morph-item	A_morph-type	a29	a30	NA	NA	NA	30	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	a31	a32	NA	NA	NA	32	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann92	ann91_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	91	eaw	NA	NA	NA
+tcc	morph-item	A_morph-type	ann96	ann95_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	95	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann104	ann103_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	103	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann108	ann107_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	107	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann113	ann112_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	112	roony	NA	NA	NA
+tcc	morph-item	A_morph-type	ann117	ann116_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	116	-i	NA	NA	NA
+tcc	morph-item	A_morph-type	ann122	ann121_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	121	dig	NA	NA	NA
+tcc	morph-item	A_morph-type	ann126	ann125_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	125	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann130	ann129_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	129	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann137	ann136_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	136	ea	NA	NA	NA
+tcc	morph-item	A_morph-type	ann144	ann143_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	143	habiiy	NA	NA	NA
+tcc	morph-item	A_morph-type	ann148	ann147_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	147	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann152	ann151_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	151	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann162	ann161_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	161	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann166	ann165_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	165	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann171	ann170_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	170	daah	NA	NA	NA
+tcc	morph-item	A_morph-type	ann177	ann176_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	176	habiiy	NA	NA	NA
+tcc	morph-item	A_morph-type	ann181	ann180_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	180	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann185	ann184_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	184	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann190	ann189_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	189	geeshad	NA	NA	NA
+tcc	morph-item	A_morph-type	ann194	ann193_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	193	-ga	NA	NA	NA
+tcc	morph-item	A_morph-type	ann200	ann199_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	199	dig	NA	NA	NA
+tcc	morph-item	A_morph-type	ann204	ann203_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	203	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann208	ann207_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	207	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann217	ann216_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	216	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann221	ann220_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	220	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann226	ann225_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	225	yee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann230	ann229_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	229	-sh	NA	NA	NA
+tcc	morph-item	A_morph-type	ann234	ann233_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	233	-a	NA	NA	NA
+tcc	morph-item	A_morph-type	ann240	ann239_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	239	habiiy	NA	NA	NA
+tcc	morph-item	A_morph-type	ann244	ann243_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	243	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann248	ann247_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	247	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann253	ann252_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	252	dig	NA	NA	NA
+tcc	morph-item	A_morph-type	ann257	ann256_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	256	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann261	ann260_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	260	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann271	ann270_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	270	gwacha	NA	NA	NA
+tcc	morph-item	A_morph-type	ann276	ann275_flexid_d7f713e2-e8cf-11d3-9764-00c04f186933	NA	NA	NA	275	ii=	NA	NA	NA
+tcc	morph-item	A_morph-type	ann280	ann279_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	279	mii	NA	NA	NA
+tcc	morph-item	A_morph-type	ann285	ann284_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	284	gujaw	NA	NA	NA
+tcc	morph-item	A_morph-type	ann289	ann288_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	288	-su	NA	NA	NA
+tcc	morph-item	A_morph-type	ann295	ann294_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	294	-n	NA	NA	NA
+tcc	morph-item	A_morph-type	ann302	ann301_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	301	geeshad	NA	NA	NA
+tcc	morph-item	A_morph-type	ann306	ann305_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	305	-ga	NA	NA	NA
+tcc	morph-item	A_morph-type	ann310	ann309_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	309	-gu	NA	NA	NA
+tcc	morph-item	A_morph-type	ann317	ann316_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	316	ea	NA	NA	NA
+tcc	morph-item	A_morph-type	ann323	ann322_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	322	m-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann327	ann326_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	326	ay-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann331	ann330_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	330	daa-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann335	ann334_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	334	wal	NA	NA	NA
+tcc	morph-item	A_morph-type	ann345	ann344_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	344	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann349	ann348_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	348	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann354	ann353_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	353	yee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann358	ann357_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	357	-sh	NA	NA	NA
+tcc	morph-item	A_morph-type	ann362	ann361_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	361	-a	NA	NA	NA
+tcc	morph-item	A_morph-type	ann367	ann366_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	366	dig	NA	NA	NA
+tcc	morph-item	A_morph-type	ann371	ann370_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	370	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann375	ann374_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	374	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann385	ann384_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	384	súu	NA	NA	NA
+tcc	morph-item	A_morph-type	ann393	ann392_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	392	mii	NA	NA	NA
+tcc	morph-item	A_morph-type	ann398	ann397_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	397	gujaw	NA	NA	NA
+tcc	morph-item	A_morph-type	ann402	ann401_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	401	-ga	NA	NA	NA
+tcc	morph-item	A_morph-type	ann411	ann410_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	410	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann415	ann414_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	414	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann420	ann419_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	419	yee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann424	ann423_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	423	-sh	NA	NA	NA
+tcc	morph-item	A_morph-type	ann428	ann427_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	427	-a	NA	NA	NA
+tcc	morph-item	A_morph-type	ann434	ann433_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	433	habiiy	NA	NA	NA
+tcc	morph-item	A_morph-type	ann438	ann437_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	437	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann442	ann441_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	441	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann452	ann451_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	451	náa	NA	NA	NA
+tcc	morph-item	A_morph-type	ann456	ann455_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	455	há	NA	NA	NA
+tcc	morph-item	A_morph-type	ann465	ann464_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	464	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann469	ann468_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	468	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann474	ann473_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	473	yee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann478	ann477_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	477	-sh	NA	NA	NA
+tcc	morph-item	A_morph-type	ann482	ann481_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	481	-a	NA	NA	NA
+tcc	morph-item	A_morph-type	ann487	ann486_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	486	dig	NA	NA	NA
+tcc	morph-item	A_morph-type	ann491	ann490_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	490	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann495	ann494_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	494	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann502	ann501_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	501	súu	NA	NA	NA
+tcc	morph-item	A_morph-type	ann510	ann509_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	509	iid	NA	NA	NA
+tcc	morph-item	A_morph-type	ann514	ann513_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	513	-i	NA	NA	NA
+tcc	morph-item	A_morph-type	ann518	ann517_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	517	-ga	NA	NA	NA
+tcc	morph-item	A_morph-type	ann527	ann526_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	526	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann531	ann530_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	530	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann536	ann535_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	535	yee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann540	ann539_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	539	-sh	NA	NA	NA
+tcc	morph-item	A_morph-type	ann544	ann543_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	543	-a	NA	NA	NA
+tcc	morph-item	A_morph-type	ann550	ann549_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	549	habiiy	NA	NA	NA
+tcc	morph-item	A_morph-type	ann554	ann553_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	553	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann558	ann557_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	557	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann565	ann564_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	564	héabì	NA	NA	NA
+tcc	morph-item	A_morph-type	ann570	ann569_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	569	lalag	NA	NA	NA
+tcc	morph-item	A_morph-type	ann574	ann573_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	573	-d	NA	NA	NA
+tcc	morph-item	A_morph-type	ann578	ann577_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	577	-a	NA	NA	NA
+tcc	morph-item	A_morph-type	ann585	ann584_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	584	daa-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann590	ann589_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	589	daah	NA	NA	NA
+tcc	morph-item	A_morph-type	ann599	ann598_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	598	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann603	ann602_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	602	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann608	ann607_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	607	lalag	NA	NA	NA
+tcc	morph-item	A_morph-type	ann612	ann611_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	611	-d	NA	NA	NA
+tcc	morph-item	A_morph-type	ann616	ann615_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	615	-a	NA	NA	NA
+tcc	morph-item	A_morph-type	ann621	ann620_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	620	dig	NA	NA	NA
+tcc	morph-item	A_morph-type	ann625	ann624_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	624	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann629	ann628_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	628	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann634	ann633_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	633	iid	NA	NA	NA
+tcc	morph-item	A_morph-type	ann638	ann637_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	637	-i	NA	NA	NA
+tcc	morph-item	A_morph-type	ann642	ann641_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	641	-ga	NA	NA	NA
+tcc	morph-item	A_morph-type	ann646	ann645_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	645	-schi	NA	NA	NA
+tcc	morph-item	A_morph-type	ann654	ann653_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	653	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann658	ann657_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	657	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann663	ann662_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	662	jeang'	NA	NA	NA
+tcc	morph-item	A_morph-type	ann667	ann666_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	666	-u	NA	NA	NA
+tcc	morph-item	A_morph-type	ann673	ann672_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	672	habiiy	NA	NA	NA
+tcc	morph-item	A_morph-type	ann677	ann676_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	676	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann681	ann680_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	680	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann688	ann687_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	687	gídêabá	NA	NA	NA
+tcc	morph-item	A_morph-type	ann695	ann694_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	694	mii	NA	NA	NA
+tcc	morph-item	A_morph-type	ann700	ann699_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	699	gujaw	NA	NA	NA
+tcc	morph-item	A_morph-type	ann704	ann703_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	703	-ga	NA	NA	NA
+tcc	morph-item	A_morph-type	ann711	ann710_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	710	gil	NA	NA	NA
+tcc	morph-item	A_morph-type	ann718	ann717_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	717	iid	NA	NA	NA
+tcc	morph-item	A_morph-type	ann722	ann721_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	721	-i	NA	NA	NA
+tcc	morph-item	A_morph-type	ann726	ann725_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	725	-ga	NA	NA	NA
+tcc	morph-item	A_morph-type	ann736	ann735_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	735	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann740	ann739_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	739	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann745	ann744_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	744	ng'ead	NA	NA	NA
+tcc	morph-item	A_morph-type	ann749	ann748_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	748	-s	NA	NA	NA
+tcc	morph-item	A_morph-type	ann753	ann752_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	752	-a	NA	NA	NA
+tcc	morph-item	A_morph-type	ann759	ann758_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	758	habiiy	NA	NA	NA
+tcc	morph-item	A_morph-type	ann763	ann762_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	762	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann767	ann766_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	766	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann772	ann771_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	771	dig	NA	NA	NA
+tcc	morph-item	A_morph-type	ann776	ann775_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	775	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann780	ann779_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	779	-da	NA	NA	NA
+tcc	morph-item	A_morph-type	ann790	ann789_flexid_d7f713e2-e8cf-11d3-9764-00c04f186933	NA	NA	NA	789	ag=	NA	NA	NA
+tcc	morph-item	A_morph-type	ann794	ann793_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	793	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann798	ann797_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	797	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann803	ann802_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	802	hoan	NA	NA	NA
+tcc	morph-item	A_morph-type	ann808	ann807_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	807	-i	NA	NA	NA
+tcc	morph-item	A_morph-type	ann818	ann817_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	817	ea	NA	NA	NA
+tcc	morph-item	A_morph-type	ann826	ann825_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	825	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann830	ann829_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	829	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann835	ann834_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	834	rad	NA	NA	NA
+tcc	morph-item	A_morph-type	ann840	ann839_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	839	-u	NA	NA	NA
+tcc	morph-item	A_morph-type	ann845	ann844_flexid_d7f713e2-e8cf-11d3-9764-00c04f186933	NA	NA	NA	844	ag=	NA	NA	NA
+tcc	morph-item	A_morph-type	ann849	ann848_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	848	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann853	ann852_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	852	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann858	ann857_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	857	ag	NA	NA	NA
+tcc	morph-item	A_morph-type	ann868	ann867_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	867	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann872	ann871_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	871	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann877	ann876_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	876	ng'ead	NA	NA	NA
+tcc	morph-item	A_morph-type	ann881	ann880_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	880	-a	NA	NA	NA
+tcc	morph-item	A_morph-type	ann886	ann885_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	885	eaw	NA	NA	NA
+tcc	morph-item	A_morph-type	ann890	ann889_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	889	-ee	NA	NA	NA
+tcc	morph-item	A_morph-type	ann894	ann893_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	893	-dida	NA	NA	NA
+tcc	morph-item	A_morph-type	ann899	ann898_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	898	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann903	ann902_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	902	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann908	ann907_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	907	ag	NA	NA	NA
+tcc	morph-item	A_morph-type	ann912	ann911_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	911	-ay	NA	NA	NA
+tcc	morph-item	A_morph-type	ann916	ann915_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	915	-a	NA	NA	NA
+tcc	morph-item	A_morph-type	ann923	ann922_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	922	habiiy	NA	NA	NA
+tcc	morph-item	A_morph-type	ann927	ann926_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	926	-óojì	NA	NA	NA
+tcc	morph-item	A_morph-type	ann931	ann930_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	930	-ga	NA	NA	NA
+tcc	morph-item	A_morph-type	ann936	ann935_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	935	dig	NA	NA	NA
+tcc	morph-item	A_morph-type	ann940	ann939_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	939	-een	NA	NA	NA
+tcc	morph-item	A_morph-type	ann944	ann943_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	943	-i	NA	NA	NA
+tcc	morph-item	A_morph-type	ann948	ann947_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	947	-ga	NA	NA	NA
+tcc	morph-item	A_morph-type	ann955	ann954_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	954	ea	NA	NA	NA
+tcc	morph-item	A_morph-type	ann963	ann962_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	962	g-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann967	ann966_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	966	a-	NA	NA	NA
+tcc	morph-item	A_morph-type	ann972	ann971_flexid_d7f713e5-e8cf-11d3-9764-00c04f186933	NA	NA	NA	971	aw	NA	NA	NA
+tcc	morph-item	A_morph-type	ann979	ann978_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	978	qamneaw	NA	NA	NA
+NA	paragraph	NA	a71	NA	NA	ts2	ts4	NA	NA	qáyi gàráy dìiyángà gábàlóolí gáwùrjì búunèeda	NA	NA
+NA	paragraph	NA	ann87_flexid_bd62ec59-1eb8-4bbb-9e40-456e8f818a31	NA	NA	ts6	ts8	NA	NA	àawéechá gwáróonyí dìgéedá éa hàbíiyèeda	NA	NA
+NA	paragraph	NA	ann155_flexid_2734fb37-50a1-4a6e-9585-e36c585de14b	NA	NA	ts10	ts12	NA	NA	qwádáah hábíiyéedá gèeshátká dìgèeda	NA	NA
+NA	paragraph	NA	ann211_flexid_16f783eb-12b4-4350-9483-be747806e8c8	NA	NA	ts14	ts16	NA	NA	gwáyéeshá hábíiyéeda dìgèeda	NA	NA
+NA	paragraph	NA	ann264_flexid_0855d63f-928d-445c-b04c-b2e6f25ee4d5	NA	NA	ts18	ts20	NA	NA	gwáchà íimíi gùjáksíkáagùun gèeshátkáagú èa máydáawàl	NA	NA
+NA	paragraph	NA	ann339_flexid_9c5b0c52-d334-4bb4-a158-05fc720665fc	NA	NA	ts22	ts24	NA	NA	gwáyéeshá dígèeda	NA	NA
+NA	paragraph	NA	ann378_flexid_0c4d9b45-310d-4771-baf8-7a4374e8fc33	NA	NA	ts26	ts28	NA	NA	sùu míi gùjákká	NA	NA
+NA	paragraph	NA	ann405_flexid_de50e840-0fc6-4c40-af42-956b503c6545	NA	NA	ts30	ts32	NA	NA	gwáyéeshá hábíiyèeda	NA	NA
+NA	paragraph	NA	ann445_flexid_197b8ff2-58bf-4a93-9c3e-ba7558963856	NA	NA	ts34	ts36	NA	NA	náahá?	NA	NA
+NA	paragraph	NA	ann459_flexid_5273b24e-432f-492d-98dd-86ef7016f487	NA	NA	ts38	ts40	NA	NA	gwáyéeshà dígéedá sùu íidígà	NA	NA
+NA	paragraph	NA	ann521_flexid_dca4f0de-eabd-4e3f-a23c-5ea29d68dda1	NA	NA	ts42	ts44	NA	NA	gwáyéeshà hábìiyéedá héabì lálàktá dádàa	NA	NA
+NA	paragraph	NA	ann594_flexid_2ac31151-dceb-4da2-a6e7-b876dc90cb55	NA	NA	ts46	ts48	NA	NA	qwàlàláktá dígéedá íidígàaschi	NA	NA
+NA	paragraph	NA	ann649_flexid_908a0da0-c0d7-4e17-a6ce-e0f76cba3991	NA	NA	ts50	ts52	NA	NA	gwàjéang'u hábìiyéedá gídêabá míi gùjáká gìl (.) íidìgá	NA	NA
+NA	paragraph	NA	ann729_flexid_4f9ab3ad-9d3b-42e1-9ec0-a4d69cae6678	NA	NA	ts54	ts56	NA	NA	gàng'èesá hábìiyéedá dìgèeda	NA	NA
+NA	paragraph	NA	ann783_flexid_426c65c4-aecf-4171-a368-05c9e1b9c387	NA	NA	ts58	ts60	NA	NA	ákqóahôani	NA	NA
+NA	paragraph	NA	ann811_flexid_bfaf0220-a524-40e8-8933-07a2b5249ff6	NA	NA	ts62	ts64	NA	NA	èa gwárádú ák qwàak	NA	NA
+NA	paragraph	NA	ann861_flexid_6e54c380-0bdd-413d-8cb8-bd9c93c7b506	NA	NA	ts66	ts69	NA	NA	qáng'éadà èawéetídá gwêagà hábíiyóojìgá dìgéenígá èa qwáa qámna	NA	NA
+tcc	word	A_morph-type	a455	a216	NA	NA	NA	216	NA	NA	##	NA
+tcc	word	A_morph-type	a456	a2	NA	NA	NA	2	NA	NA	*	NA
+tcc	word	A_morph-type	a457	a4	NA	NA	NA	4	NA	NA	adv	NA
+tcc	word	A_morph-type	a458	a6	NA	NA	NA	6	NA	NA	np.an:s	NA
+tcc	word	A_morph-type	a459	a8	NA	NA	NA	8	NA	NA		NA
+tcc	word	A_morph-type	a460	a10	NA	NA	NA	10	NA	NA		NA
+tcc	word	A_morph-type	a461	a12	NA	NA	NA	12	NA	NA		NA
+tcc	word	A_morph-type	a462	a14	NA	NA	NA	14	NA	NA		NA
+tcc	word	A_morph-type	a463	a16	NA	NA	NA	16	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a464	a18	NA	NA	NA	18	NA	NA		NA
+tcc	word	A_morph-type	a465	a218	NA	NA	NA	218	NA	NA	#ac	NA
+tcc	word	A_morph-type	a466	a20	NA	NA	NA	20	NA	NA		NA
+tcc	word	A_morph-type	a467	a22	NA	NA	NA	22	NA	NA		NA
+tcc	word	A_morph-type	a468	a24	NA	NA	NA	24	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a469	a26	NA	NA	NA	26	NA	NA		NA
+tcc	word	A_morph-type	a470	a28	NA	NA	NA	28	NA	NA	np.h:pred	NA
+tcc	word	A_morph-type	a471	a30	NA	NA	NA	30	NA	NA		NA
+tcc	word	A_morph-type	a472	a32	NA	NA	NA	32	NA	NA		NA
+tcc	word	A_morph-type	a473	a450	NA	NA	NA	450	NA	NA	0.an:s	NA
+tcc	word	A_morph-type	a474	a220	NA	NA	NA	220	NA	NA	##	NA
+tcc	word	A_morph-type	a475	ann91_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	91	NA	NA	np:other	NA
+tcc	word	A_morph-type	a476	ann95_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	95	NA	NA		NA
+tcc	word	A_morph-type	a477	ann99	NA	NA	NA	99	NA	NA		NA
+tcc	word	A_morph-type	a478	ann103_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	103	NA	NA		NA
+tcc	word	A_morph-type	a479	ann107_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	107	NA	NA		NA
+tcc	word	A_morph-type	a480	ann112_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	112	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a481	ann116_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	116	NA	NA		NA
+tcc	word	A_morph-type	a482	ann121_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	121	NA	NA	np.d:s	NA
+tcc	word	A_morph-type	a483	ann125_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	125	NA	NA		NA
+tcc	word	A_morph-type	a484	ann129_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	129	NA	NA		NA
+tcc	word	A_morph-type	a485	ann136_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	136	NA	NA	rn	NA
+tcc	word	A_morph-type	a486	ann143_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	143	NA	NA	rn	NA
+tcc	word	A_morph-type	a487	ann147_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	147	NA	NA		NA
+tcc	word	A_morph-type	a488	ann151_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	151	NA	NA		NA
+tcc	word	A_morph-type	a489	a222	NA	NA	NA	222	NA	NA	##	NA
+tcc	word	A_morph-type	a490	ann161_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	161	NA	NA		NA
+tcc	word	A_morph-type	a491	ann165_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	165	NA	NA		NA
+tcc	word	A_morph-type	a492	ann170_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	170	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a493	ann176_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	176	NA	NA	np.d:a	NA
+tcc	word	A_morph-type	a494	ann180_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	180	NA	NA		NA
+tcc	word	A_morph-type	a495	ann184_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	184	NA	NA		NA
+tcc	word	A_morph-type	a496	ann189_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	189	NA	NA	np:p	NA
+tcc	word	A_morph-type	a497	ann193_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	193	NA	NA		NA
+tcc	word	A_morph-type	a498	ann199_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	199	NA	NA	np.d:poss	NA
+tcc	word	A_morph-type	a499	ann203_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	203	NA	NA		NA
+tcc	word	A_morph-type	a500	ann207_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	207	NA	NA		NA
+tcc	word	A_morph-type	a501	a224	NA	NA	NA	224	NA	NA	##	NA
+tcc	word	A_morph-type	a502	ann216_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	216	NA	NA		NA
+tcc	word	A_morph-type	a503	ann220_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	220	NA	NA		NA
+tcc	word	A_morph-type	a504	ann225_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	225	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a505	ann229_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	229	NA	NA		NA
+tcc	word	A_morph-type	a506	ann233_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	233	NA	NA		NA
+tcc	word	A_morph-type	a507	ann239_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	239	NA	NA	np.d:s_ds	NA
+tcc	word	A_morph-type	a508	ann243_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	243	NA	NA		NA
+tcc	word	A_morph-type	a509	ann247_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	247	NA	NA		NA
+tcc	word	A_morph-type	a510	ann252_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	252	NA	NA	np.d:g	NA
+tcc	word	A_morph-type	a511	ann256_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	256	NA	NA		NA
+tcc	word	A_morph-type	a512	ann260_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	260	NA	NA		NA
+tcc	word	A_morph-type	a513	a226	NA	NA	NA	226	NA	NA	##ds_neg	NA
+tcc	word	A_morph-type	a514	a228	NA	NA	NA	228	NA	NA	#ac.neg	NA
+tcc	word	A_morph-type	a515	ann270_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	270	NA	NA	adv	NA
+tcc	word	A_morph-type	a516	ann275_flexid_d7f713e2-e8cf-11d3-9764-00c04f186933	NA	NA	NA	275	NA	NA		NA
+tcc	word	A_morph-type	a517	ann279_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	279	NA	NA	cop	NA
+tcc	word	A_morph-type	a518	a230	NA	NA	NA	230	NA	NA	0:s	NA
+tcc	word	A_morph-type	a519	ann284_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	284	NA	NA	np:pred	NA
+tcc	word	A_morph-type	a520	ann288_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	288	NA	NA	pro.2:poss	NA
+tcc	word	A_morph-type	a521	ann293	NA	NA	NA	293	NA	NA		NA
+tcc	word	A_morph-type	a522	ann294_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	294	NA	NA		NA
+tcc	word	A_morph-type	a523	a232	NA	NA	NA	232	NA	NA	%	NA
+tcc	word	A_morph-type	a524	ann301_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	301	NA	NA	np:p	NA
+tcc	word	A_morph-type	a525	ann305_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	305	NA	NA		NA
+tcc	word	A_morph-type	a526	ann309_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	309	NA	NA	pro.2:poss	NA
+tcc	word	A_morph-type	a527	ann316_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	316	NA	NA	*	NA
+tcc	word	A_morph-type	a528	ann322_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	322	NA	NA		NA
+tcc	word	A_morph-type	a529	ann326_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	326	NA	NA		NA
+tcc	word	A_morph-type	a530	ann330_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	330	NA	NA		NA
+tcc	word	A_morph-type	a531	ann334_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	334	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a532	a234	NA	NA	NA	234	NA	NA	0.1:a	NA
+tcc	word	A_morph-type	a533	a236	NA	NA	NA	236	NA	NA	##	NA
+tcc	word	A_morph-type	a534	ann344_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	344	NA	NA		NA
+tcc	word	A_morph-type	a535	ann348_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	348	NA	NA		NA
+tcc	word	A_morph-type	a536	ann353_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	353	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a537	ann357_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	357	NA	NA		NA
+tcc	word	A_morph-type	a538	ann361_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	361	NA	NA		NA
+tcc	word	A_morph-type	a539	ann366_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	366	NA	NA	np.d:s_ds	NA
+tcc	word	A_morph-type	a540	ann370_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	370	NA	NA		NA
+tcc	word	A_morph-type	a541	ann374_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	374	NA	NA		NA
+tcc	word	A_morph-type	a542	a238	NA	NA	NA	238	NA	NA	##ds_neg	NA
+tcc	word	A_morph-type	a543	ann384_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	384	NA	NA	dem_pro:s	NA
+tcc	word	A_morph-type	a544	ann392_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	392	NA	NA	cop	NA
+tcc	word	A_morph-type	a545	ann397_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	397	NA	NA	np:pred	NA
+tcc	word	A_morph-type	a546	ann401_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	401	NA	NA		NA
+tcc	word	A_morph-type	a547	a240	NA	NA	NA	240	NA	NA	##	NA
+tcc	word	A_morph-type	a548	ann410_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	410	NA	NA		NA
+tcc	word	A_morph-type	a549	ann414_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	414	NA	NA		NA
+tcc	word	A_morph-type	a550	ann419_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	419	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a551	ann423_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	423	NA	NA		NA
+tcc	word	A_morph-type	a552	ann427_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	427	NA	NA		NA
+tcc	word	A_morph-type	a553	ann433_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	433	NA	NA	np.d:s	NA
+tcc	word	A_morph-type	a554	ann437_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	437	NA	NA		NA
+tcc	word	A_morph-type	a555	ann441_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	441	NA	NA		NA
+tcc	word	A_morph-type	a556	a242	NA	NA	NA	242	NA	NA	##ds:other	NA
+tcc	word	A_morph-type	a557	ann451_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	451	NA	NA	other:pred	NA
+tcc	word	A_morph-type	a558	ann455_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	455	NA	NA		NA
+tcc	word	A_morph-type	a559	a244	NA	NA	NA	244	NA	NA	##	NA
+tcc	word	A_morph-type	a560	ann464_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	464	NA	NA		NA
+tcc	word	A_morph-type	a561	ann468_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	468	NA	NA		NA
+tcc	word	A_morph-type	a562	ann473_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	473	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a563	ann477_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	477	NA	NA		NA
+tcc	word	A_morph-type	a564	ann481_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	481	NA	NA		NA
+tcc	word	A_morph-type	a565	ann486_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	486	NA	NA	np.d:s_ds	NA
+tcc	word	A_morph-type	a566	ann490_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	490	NA	NA		NA
+tcc	word	A_morph-type	a567	ann494_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	494	NA	NA		NA
+tcc	word	A_morph-type	a568	a246	NA	NA	NA	246	NA	NA	##ds	NA
+tcc	word	A_morph-type	a569	ann501_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	501	NA	NA	dem_pro:s	NA
+tcc	word	A_morph-type	a570	ann509_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	509	NA	NA	np:pred	NA
+tcc	word	A_morph-type	a571	ann513_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	513	NA	NA		NA
+tcc	word	A_morph-type	a572	ann517_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	517	NA	NA		NA
+tcc	word	A_morph-type	a573	a248	NA	NA	NA	248	NA	NA	##	NA
+tcc	word	A_morph-type	a574	ann526_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	526	NA	NA		NA
+tcc	word	A_morph-type	a575	ann530_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	530	NA	NA		NA
+tcc	word	A_morph-type	a576	ann535_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	535	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a577	ann539_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	539	NA	NA		NA
+tcc	word	A_morph-type	a578	ann543_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	543	NA	NA		NA
+tcc	word	A_morph-type	a579	ann549_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	549	NA	NA	np.d:s_ds	NA
+tcc	word	A_morph-type	a580	ann553_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	553	NA	NA		NA
+tcc	word	A_morph-type	a581	ann557_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	557	NA	NA		NA
+tcc	word	A_morph-type	a582	a250	NA	NA	NA	250	NA	NA	##ds	NA
+tcc	word	A_morph-type	a583	ann564_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	564	NA	NA	*	NA
+tcc	word	A_morph-type	a584	ann569_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	569	NA	NA	vother:pred	NA
+tcc	word	A_morph-type	a585	ann573_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	573	NA	NA		NA
+tcc	word	A_morph-type	a586	ann577_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	577	NA	NA		NA
+tcc	word	A_morph-type	a587	a252	NA	NA	NA	252	NA	NA	0:p	NA
+tcc	word	A_morph-type	a588	a256	NA	NA	NA	256	NA	NA	#ac.ds	NA
+tcc	word	A_morph-type	a589	ann584_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	584	NA	NA		NA
+tcc	word	A_morph-type	a590	ann589_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	589	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a858	a855	NA	NA	NA	855	NA	NA	0.1:a	NA
+tcc	word	A_morph-type	a591	a258	NA	NA	NA	258	NA	NA	0.d:p	NA
+tcc	word	A_morph-type	a592	a260	NA	NA	NA	260	NA	NA	##	NA
+tcc	word	A_morph-type	a593	ann598_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	598	NA	NA		NA
+tcc	word	A_morph-type	a594	ann602_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	602	NA	NA		NA
+tcc	word	A_morph-type	a595	ann607_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	607	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a596	ann611_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	611	NA	NA		NA
+tcc	word	A_morph-type	a597	ann615_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	615	NA	NA		NA
+tcc	word	A_morph-type	a598	ann620_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	620	NA	NA	np.d:a	NA
+tcc	word	A_morph-type	a599	ann624_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	624	NA	NA		NA
+tcc	word	A_morph-type	a600	ann628_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	628	NA	NA		NA
+tcc	word	A_morph-type	a601	ann633_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	633	NA	NA	np:p	NA
+tcc	word	A_morph-type	a602	ann637_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	637	NA	NA		NA
+tcc	word	A_morph-type	a603	ann641_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	641	NA	NA		NA
+tcc	word	A_morph-type	a604	ann645_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	645	NA	NA	pro:poss	NA
+tcc	word	A_morph-type	a605	a262	NA	NA	NA	262	NA	NA	##	NA
+tcc	word	A_morph-type	a606	ann653_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	653	NA	NA		NA
+tcc	word	A_morph-type	a607	ann657_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	657	NA	NA		NA
+tcc	word	A_morph-type	a608	ann662_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	662	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a609	ann666_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	666	NA	NA		NA
+tcc	word	A_morph-type	a610	ann672_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	672	NA	NA	np.d:a	NA
+tcc	word	A_morph-type	a611	ann676_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	676	NA	NA		NA
+tcc	word	A_morph-type	a612	ann680_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	680	NA	NA		NA
+tcc	word	A_morph-type	a842	a837	NA	NA	NA	837	NA	NA	0:p	NA
+tcc	word	A_morph-type	a613	a264	NA	NA	NA	264	NA	NA	#cc.neg	NA
+tcc	word	A_morph-type	a614	ann687_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	687	NA	NA	*	NA
+tcc	word	A_morph-type	a615	ann694_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	694	NA	NA	cop	NA
+tcc	word	A_morph-type	a616	a266	NA	NA	NA	266	NA	NA	0:s	NA
+tcc	word	A_morph-type	a617	ann699_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	699	NA	NA	np:pred	NA
+tcc	word	A_morph-type	a618	ann703_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	703	NA	NA		NA
+tcc	word	A_morph-type	a619	ann710_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	710	NA	NA	*	NA
+tcc	word	A_morph-type	a620	a270	NA	NA	NA	270	NA	NA	##	NA
+tcc	word	A_morph-type	a621	ann717_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	717	NA	NA	np:pred	NA
+tcc	word	A_morph-type	a622	ann721_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	721	NA	NA		NA
+tcc	word	A_morph-type	a623	ann725_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	725	NA	NA		NA
+tcc	word	A_morph-type	a624	a272	NA	NA	NA	272	NA	NA	0:s	NA
+tcc	word	A_morph-type	a625	a274	NA	NA	NA	274	NA	NA	##	NA
+tcc	word	A_morph-type	a626	ann735_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	735	NA	NA		NA
+tcc	word	A_morph-type	a627	ann739_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	739	NA	NA		NA
+tcc	word	A_morph-type	a628	ann744_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	744	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a629	ann748_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	748	NA	NA		NA
+tcc	word	A_morph-type	a630	ann752_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	752	NA	NA		NA
+tcc	word	A_morph-type	a631	ann758_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	758	NA	NA	np.d:s	NA
+tcc	word	A_morph-type	a632	ann762_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	762	NA	NA		NA
+tcc	word	A_morph-type	a633	ann766_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	766	NA	NA		NA
+tcc	word	A_morph-type	a634	ann771_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	771	NA	NA	np.d:g	NA
+tcc	word	A_morph-type	a635	ann775_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	775	NA	NA		NA
+tcc	word	A_morph-type	a636	ann779_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	779	NA	NA		NA
+tcc	word	A_morph-type	a637	a276	NA	NA	NA	276	NA	NA	##	NA
+tcc	word	A_morph-type	a638	ann789_flexid_d7f713e2-e8cf-11d3-9764-00c04f186933	NA	NA	NA	789	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a639	ann793_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	793	NA	NA		NA
+tcc	word	A_morph-type	a640	a278	NA	NA	NA	278	NA	NA	0.d:a	NA
+tcc	word	A_morph-type	a641	a280	NA	NA	NA	280	NA	NA	0.d:p	NA
+tcc	word	A_morph-type	a642	a282	NA	NA	NA	282	NA	NA	##	NA
+tcc	word	A_morph-type	a643	ann817_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	817	NA	NA	*	NA
+tcc	word	A_morph-type	a644	ann825_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	825	NA	NA		NA
+tcc	word	A_morph-type	a645	ann829_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	829	NA	NA		NA
+tcc	word	A_morph-type	a646	ann834_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	834	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a647	ann839_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	839	NA	NA		NA
+tcc	word	A_morph-type	a648	a284	NA	NA	NA	284	NA	NA	0.d:a	NA
+tcc	word	A_morph-type	a649	a286	NA	NA	NA	286	NA	NA	0.d:p	NA
+tcc	word	A_morph-type	a650	a288	NA	NA	NA	288	NA	NA	##	NA
+tcc	word	A_morph-type	a651	ann844_flexid_d7f713e2-e8cf-11d3-9764-00c04f186933	NA	NA	NA	844	NA	NA		NA
+tcc	word	A_morph-type	a652	ann848_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	848	NA	NA		NA
+tcc	word	A_morph-type	a653	ann852_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	852	NA	NA		NA
+tcc	word	A_morph-type	a654	ann857_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	857	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a655	a290	NA	NA	NA	290	NA	NA	0.d:a	NA
+tcc	word	A_morph-type	a656	a292	NA	NA	NA	292	NA	NA	0.d:p	NA
+tcc	word	A_morph-type	a851	a846	NA	NA	NA	846	NA	NA	##	NA
+tcc	word	A_morph-type	a657	a294	NA	NA	NA	294	NA	NA	#ac	NA
+tcc	word	A_morph-type	a658	ann867_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	867	NA	NA		NA
+tcc	word	A_morph-type	a659	ann871_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	871	NA	NA		NA
+tcc	word	A_morph-type	a660	ann876_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	876	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a661	ann880_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	880	NA	NA		NA
+tcc	word	A_morph-type	a662	ann885_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	885	NA	NA	np:other	NA
+tcc	word	A_morph-type	a663	ann889_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	889	NA	NA		NA
+tcc	word	A_morph-type	a664	ann893_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	893	NA	NA		NA
+tcc	word	A_morph-type	a665	a296	NA	NA	NA	296	NA	NA	%	NA
+tcc	word	A_morph-type	a666	ann898_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	898	NA	NA		NA
+tcc	word	A_morph-type	a667	ann902_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	902	NA	NA		NA
+tcc	word	A_morph-type	a668	ann907_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	907	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a669	ann911_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	911	NA	NA		NA
+tcc	word	A_morph-type	a670	ann915_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	915	NA	NA		NA
+tcc	word	A_morph-type	a671	ann922_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	922	NA	NA	np.an:a	NA
+tcc	word	A_morph-type	a672	ann926_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	926	NA	NA		NA
+tcc	word	A_morph-type	a673	ann930_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	930	NA	NA		NA
+tcc	word	A_morph-type	a674	ann935_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	935	NA	NA	np.an:p	NA
+tcc	word	A_morph-type	a675	ann939_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	939	NA	NA		NA
+tcc	word	A_morph-type	a676	ann943_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	943	NA	NA		NA
+tcc	word	A_morph-type	a677	ann947_flexid_d7f713dd-e8cf-11d3-9764-00c04f186933	NA	NA	NA	947	NA	NA		NA
+tcc	word	A_morph-type	a678	a298	NA	NA	NA	298	NA	NA	#ac	NA
+tcc	word	A_morph-type	a679	ann954_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	954	NA	NA	*	NA
+tcc	word	A_morph-type	a680	ann962_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	962	NA	NA		NA
+tcc	word	A_morph-type	a681	ann966_flexid_d7f713db-e8cf-11d3-9764-00c04f186933	NA	NA	NA	966	NA	NA		NA
+tcc	word	A_morph-type	a682	ann971_flexid_d7f713e5-e8cf-11d3-9764-00c04f186933	NA	NA	NA	971	NA	NA	v:pred	NA
+tcc	word	A_morph-type	a683	a300	NA	NA	NA	300	NA	NA	0:s	NA
+tcc	word	A_morph-type	a684	ann978_flexid_d7f713e8-e8cf-11d3-9764-00c04f186933	NA	NA	NA	978	NA	NA	other	NA
+tcc	morph-item	GRAID@H	a685	a455	NA	NA	NA	455	NA	NA	NA	
+tcc	morph-item	GRAID@H	a686	a456	NA	NA	NA	456	NA	NA	NA	
+tcc	morph-item	GRAID@H	a687	a457	NA	NA	NA	457	NA	NA	NA	
+tcc	morph-item	GRAID@H	a688	a458	NA	NA	NA	458	NA	NA	NA	
+tcc	morph-item	GRAID@H	a689	a461	NA	NA	NA	461	NA	NA	NA	
+tcc	morph-item	GRAID@H	a690	a465	NA	NA	NA	465	NA	NA	NA	
+tcc	morph-item	GRAID@H	a691	a466	NA	NA	NA	466	NA	NA	NA	
+tcc	morph-item	GRAID@H	a692	a470	NA	NA	NA	470	NA	NA	NA	nominative? patient?
+tcc	morph-item	GRAID@H	a693	a473	NA	NA	NA	473	NA	NA	NA	
+tcc	morph-item	GRAID@H	a694	a474	NA	NA	NA	474	NA	NA	NA	
+tcc	morph-item	GRAID@H	a695	a475	NA	NA	NA	475	NA	NA	NA	
+tcc	morph-item	GRAID@H	a696	a478	NA	NA	NA	478	NA	NA	NA	
+tcc	morph-item	GRAID@H	a697	a482	NA	NA	NA	482	NA	NA	NA	
+tcc	morph-item	GRAID@H	a698	a485	NA	NA	NA	485	NA	NA	NA	single NP subject? or adjunct phrase?
+tcc	morph-item	GRAID@H	a699	a486	NA	NA	NA	486	NA	NA	NA	
+tcc	morph-item	GRAID@H	a700	a489	NA	NA	NA	489	NA	NA	NA	
+tcc	morph-item	GRAID@H	a701	a490	NA	NA	NA	490	NA	NA	NA	
+tcc	morph-item	GRAID@H	a702	a493	NA	NA	NA	493	NA	NA	NA	
+tcc	morph-item	GRAID@H	a703	a496	NA	NA	NA	496	NA	NA	NA	
+tcc	morph-item	GRAID@H	a704	a498	NA	NA	NA	498	NA	NA	NA	
+tcc	morph-item	GRAID@H	a705	a501	NA	NA	NA	501	NA	NA	NA	
+tcc	morph-item	GRAID@H	a706	a502	NA	NA	NA	502	NA	NA	NA	
+tcc	morph-item	GRAID@H	a707	a507	NA	NA	NA	507	NA	NA	NA	
+tcc	morph-item	GRAID@H	a708	a510	NA	NA	NA	510	NA	NA	NA	
+tcc	morph-item	GRAID@H	a709	a513	NA	NA	NA	513	NA	NA	NA	
+tcc	morph-item	GRAID@H	a710	a514	NA	NA	NA	514	NA	NA	NA	
+tcc	morph-item	GRAID@H	a711	a515	NA	NA	NA	515	NA	NA	NA	
+tcc	morph-item	GRAID@H	a712	a516	NA	NA	NA	516	NA	NA	NA	
+tcc	morph-item	GRAID@H	a713	a518	NA	NA	NA	518	NA	NA	NA	
+tcc	morph-item	GRAID@H	a714	a519	NA	NA	NA	519	NA	NA	NA	
+tcc	morph-item	GRAID@H	a715	a523	NA	NA	NA	523	NA	NA	NA	
+tcc	morph-item	GRAID@H	a716	a524	NA	NA	NA	524	NA	NA	NA	
+tcc	morph-item	GRAID@H	a717	a527	NA	NA	NA	527	NA	NA	NA	topicalisation? or just subjunctive?
+tcc	morph-item	GRAID@H	a718	a528	NA	NA	NA	528	NA	NA	NA	
+tcc	morph-item	GRAID@H	a719	a532	NA	NA	NA	532	NA	NA	NA	
+tcc	morph-item	GRAID@H	a720	a533	NA	NA	NA	533	NA	NA	NA	
+tcc	morph-item	GRAID@H	a721	a534	NA	NA	NA	534	NA	NA	NA	
+tcc	morph-item	GRAID@H	a722	a539	NA	NA	NA	539	NA	NA	NA	
+tcc	morph-item	GRAID@H	a723	a542	NA	NA	NA	542	NA	NA	NA	
+tcc	morph-item	GRAID@H	a724	a543	NA	NA	NA	543	NA	NA	NA	
+tcc	morph-item	GRAID@H	a725	a544	NA	NA	NA	544	NA	NA	NA	
+tcc	morph-item	GRAID@H	a726	a545	NA	NA	NA	545	NA	NA	NA	
+tcc	morph-item	GRAID@H	a727	a547	NA	NA	NA	547	NA	NA	NA	
+tcc	morph-item	GRAID@H	a728	a548	NA	NA	NA	548	NA	NA	NA	
+tcc	morph-item	GRAID@H	a729	a553	NA	NA	NA	553	NA	NA	NA	
+tcc	morph-item	GRAID@H	a730	a556	NA	NA	NA	556	NA	NA	NA	
+tcc	morph-item	GRAID@H	a731	a557	NA	NA	NA	557	NA	NA	NA	
+tcc	morph-item	GRAID@H	a732	a559	NA	NA	NA	559	NA	NA	NA	
+tcc	morph-item	GRAID@H	a733	a560	NA	NA	NA	560	NA	NA	NA	
+tcc	morph-item	GRAID@H	a734	a565	NA	NA	NA	565	NA	NA	NA	
+tcc	morph-item	GRAID@H	a735	a568	NA	NA	NA	568	NA	NA	NA	
+tcc	morph-item	GRAID@H	a736	a569	NA	NA	NA	569	NA	NA	NA	
+tcc	morph-item	GRAID@H	a737	a570	NA	NA	NA	570	NA	NA	NA	
+tcc	morph-item	GRAID@H	a738	a573	NA	NA	NA	573	NA	NA	NA	
+tcc	morph-item	GRAID@H	a739	a574	NA	NA	NA	574	NA	NA	NA	
+tcc	morph-item	GRAID@H	a740	a579	NA	NA	NA	579	NA	NA	NA	
+tcc	morph-item	GRAID@H	a741	a582	NA	NA	NA	582	NA	NA	NA	
+tcc	morph-item	GRAID@H	a742	a583	NA	NA	NA	583	NA	NA	NA	what function?
+tcc	morph-item	GRAID@H	a743	a584	NA	NA	NA	584	NA	NA	NA	
+tcc	morph-item	GRAID@H	a744	a587	NA	NA	NA	587	NA	NA	NA	
+tcc	morph-item	GRAID@H	a745	a588	NA	NA	NA	588	NA	NA	NA	
+tcc	morph-item	GRAID@H	a746	a589	NA	NA	NA	589	NA	NA	NA	
+tcc	morph-item	GRAID@H	a859	a858	NA	NA	NA	858	NA	NA	NA	
+tcc	morph-item	GRAID@H	a747	a591	NA	NA	NA	591	NA	NA	NA	
+tcc	morph-item	GRAID@H	a748	a592	NA	NA	NA	592	NA	NA	NA	
+tcc	morph-item	GRAID@H	a749	a593	NA	NA	NA	593	NA	NA	NA	
+tcc	morph-item	GRAID@H	a750	a598	NA	NA	NA	598	NA	NA	NA	
+tcc	morph-item	GRAID@H	a751	a601	NA	NA	NA	601	NA	NA	NA	
+tcc	morph-item	GRAID@H	a752	a605	NA	NA	NA	605	NA	NA	NA	
+tcc	morph-item	GRAID@H	a753	a606	NA	NA	NA	606	NA	NA	NA	
+tcc	morph-item	GRAID@H	a754	a610	NA	NA	NA	610	NA	NA	NA	
+tcc	morph-item	GRAID@H	a843	a842	NA	NA	NA	842	NA	NA	NA	
+tcc	morph-item	GRAID@H	a755	a613	NA	NA	NA	613	NA	NA	NA	
+tcc	morph-item	GRAID@H	a756	a614	NA	NA	NA	614	NA	NA	NA	
+tcc	morph-item	GRAID@H	a757	a615	NA	NA	NA	615	NA	NA	NA	
+tcc	morph-item	GRAID@H	a758	a616	NA	NA	NA	616	NA	NA	NA	
+tcc	morph-item	GRAID@H	a759	a617	NA	NA	NA	617	NA	NA	NA	
+tcc	morph-item	GRAID@H	a760	a619	NA	NA	NA	619	NA	NA	NA	
+tcc	morph-item	GRAID@H	a761	a620	NA	NA	NA	620	NA	NA	NA	
+tcc	morph-item	GRAID@H	a762	a621	NA	NA	NA	621	NA	NA	NA	
+tcc	morph-item	GRAID@H	a763	a624	NA	NA	NA	624	NA	NA	NA	
+tcc	morph-item	GRAID@H	a764	a625	NA	NA	NA	625	NA	NA	NA	
+tcc	morph-item	GRAID@H	a765	a626	NA	NA	NA	626	NA	NA	NA	
+tcc	morph-item	GRAID@H	a766	a631	NA	NA	NA	631	NA	NA	NA	
+tcc	morph-item	GRAID@H	a767	a634	NA	NA	NA	634	NA	NA	NA	
+tcc	morph-item	GRAID@H	a768	a637	NA	NA	NA	637	NA	NA	NA	
+tcc	morph-item	GRAID@H	a769	a638	NA	NA	NA	638	NA	NA	NA	
+tcc	morph-item	GRAID@H	a770	a640	NA	NA	NA	640	NA	NA	NA	
+tcc	morph-item	GRAID@H	a771	a641	NA	NA	NA	641	NA	NA	NA	
+tcc	morph-item	GRAID@H	a772	a642	NA	NA	NA	642	NA	NA	NA	
+tcc	morph-item	GRAID@H	a773	a643	NA	NA	NA	643	NA	NA	NA	
+tcc	morph-item	GRAID@H	a774	a644	NA	NA	NA	644	NA	NA	NA	
+tcc	morph-item	GRAID@H	a775	a648	NA	NA	NA	648	NA	NA	NA	
+tcc	morph-item	GRAID@H	a776	a649	NA	NA	NA	649	NA	NA	NA	
+tcc	morph-item	GRAID@H	a777	a650	NA	NA	NA	650	NA	NA	NA	
+tcc	morph-item	GRAID@H	a778	a651	NA	NA	NA	651	NA	NA	NA	
+tcc	morph-item	GRAID@H	a779	a655	NA	NA	NA	655	NA	NA	NA	
+tcc	morph-item	GRAID@H	a780	a656	NA	NA	NA	656	NA	NA	NA	
+tcc	morph-item	GRAID@H	a852	a851	NA	NA	NA	851	NA	NA	NA	
+tcc	morph-item	GRAID@H	a781	a657	NA	NA	NA	657	NA	NA	NA	
+tcc	morph-item	GRAID@H	a782	a658	NA	NA	NA	658	NA	NA	NA	reconsider syntax
+tcc	morph-item	GRAID@H	a783	a662	NA	NA	NA	662	NA	NA	NA	
+tcc	morph-item	GRAID@H	a784	a665	NA	NA	NA	665	NA	NA	NA	
+tcc	morph-item	GRAID@H	a785	a666	NA	NA	NA	666	NA	NA	NA	
+tcc	morph-item	GRAID@H	a786	a671	NA	NA	NA	671	NA	NA	NA	
+tcc	morph-item	GRAID@H	a787	a674	NA	NA	NA	674	NA	NA	NA	
+tcc	morph-item	GRAID@H	a788	a678	NA	NA	NA	678	NA	NA	NA	
+tcc	morph-item	GRAID@H	a789	a679	NA	NA	NA	679	NA	NA	NA	
+tcc	morph-item	GRAID@H	a790	a680	NA	NA	NA	680	NA	NA	NA	
+tcc	morph-item	GRAID@H	a791	a683	NA	NA	NA	683	NA	NA	NA	
+tcc	morph-item	GRAID@H	a792	a684	NA	NA	NA	684	NA	NA	NA	
