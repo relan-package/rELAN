@@ -51,13 +51,23 @@ calculate_duration <- function(time_slot_ref1, time_slot_ref2, time_slot_to_valu
 
 #' Extract Annotations from an ELAN XML Document
 #'
-#' @param elan_xml An XML document object representing the ELAN file.
-#' @return A tibble where each row represents an annotation.
-#' @examples
-#' elan_xml <- xml2::read_xml(elan_xml_string)
-#' annotations_df <- extract_annotations(elan_xml)
-
-extract_annotations <- function(elan_xml) {
+#' Parses an ELAN XML document to extract annotation details, organizing the information into a
+#' structured tibble. Each row in the tibble represents an individual annotation. The function
+#' handles both `ALIGNABLE_ANNOTATION` and `REF_ANNOTATION` types. It can optionally distribute
+#' the duration of a parent annotation among its child annotations based on the `distribute_duration_among_children`
+#' parameter.
+#'
+#' @param elan_xml An XML document object representing the ELAN file, loaded using `xml2::read_xml()`.
+#' @param distribute_duration_among_children A logical parameter indicating whether to distribute
+#'        the duration of parent annotations evenly among their child annotations. When `TRUE`,
+#'        child annotations that reference the same parent will have their `DURATION` adjusted
+#'        to reflect an equal share of the parent's total duration. Defaults to `FALSE`.
+#' @return A tibble where each row represents an annotation and includes columns for linguistic
+#'         references, annotation IDs, annotation values, time slots, and calculated durations.
+#'         If `distribute_duration_among_children` is `TRUE`, durations for child annotations
+#'         referencing the same parent are adjusted to distribute the parent's duration evenly
+#'         among them.
+extract_annotations <- function(elan_xml, distribute_duration_among_children = FALSE) {
   # Validate input
   if (!inherits(elan_xml, "xml_document")) {
     stop("Input must be an XML document object created by xml2::read_xml().")
@@ -114,9 +124,25 @@ extract_annotations <- function(elan_xml) {
       DURATION = duration)
   })
   
-  do.call(rbind, data) %>% as_tibble()
+  # Preparing the data frame from the list of annotations
+  annotations_df <- do.call(rbind, data) %>% as_tibble()
+  
+  # Conditionally distributing duration among child annotations if requested
+  if (distribute_duration_among_children) {
+    annotations_df <- annotations_df %>%
+      group_by(ANNOTATION_REF, TIER_ID) %>%
+      mutate(
+        Child_Count = n(),
+        DURATION = if_else(!is.na(ANNOTATION_REF) & Child_Count > 0, DURATION / Child_Count, DURATION)
+      ) %>%
+      ungroup() %>%
+      select(-Child_Count) # Removing the temporary count column
+  }
+  
+  # Returning the modified or unmodified annotations data frame
+  return(annotations_df)
 }
 
 # example for testing
-# annotations_df <- extract_annotations(read_xml("path/to/elan.eaf"))
-
+annotations_df <- extract_annotations(read_xml("Coding/Uni/ElanConversion/files/280117_10_Hamid_Clandividing.eaf"), distribute_duration_among_children = TRUE)
+typeof(annotations_df)

@@ -2,7 +2,7 @@
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1337,1009</Object>
+        <Object class="java.awt.Dimension">1280,1415</Object>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -17,7 +17,7 @@
         <String>id@</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>441147</Long>
+        <Long>4532</Long>
     </pref>
     <pref key="ExportTabDialog.SelectTiersMode">
         <String>Tier</String>
@@ -79,6 +79,7 @@
         <String>sound@</String>
         <String>graid</String>
     </prefList>
+    <prefGroup key="TierFonts"/>
     <prefList key="CommentViewer.Columns.Order">
         <String>Anfangszeit</String>
         <String>Endzeit</String>
@@ -94,14 +95,17 @@
     <pref key="ActiveRecognizerName">
         <String>BAS - WebMAUS Basic</String>
     </pref>
+    <pref key="MediaControlVolume">
+        <Float>0.55</Float>
+    </pref>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">731,185</Object>
+        <Object class="java.awt.Point">1280,25</Object>
     </pref>
     <pref key="TimeLineViewer.ZoomLevel">
-        <Float>1.0</Float>
+        <Float>325.0</Float>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>441147</Long>
+        <Long>4532</Long>
     </pref>
     <prefGroup key="BAS - WebMAUS Basic">
         <pref key="LANGUAGE">
@@ -122,7 +126,7 @@
         <Long>0</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>441147</Long>
+        <Long>2175</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="id@">
@@ -140,6 +144,7 @@
         <String>nt@</String>
         <String>sound@</String>
     </prefList>
+    <prefGroup key="TierHighlightColors"/>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>2</Int>
     </pref>
