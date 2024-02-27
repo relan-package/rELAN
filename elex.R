@@ -143,5 +143,5 @@ extract_annotations <- function(elan_xml, distribute_duration_among_children = F
 }
 
 # example for testing
-annotations_df <- extract_annotations(read_xml("Coding/Uni/ElanConversion/files/280117_10_Hamid_Clandividing.eaf"), distribute_duration_among_children = TRUE)
+annotations_df <- extract_annotations(read_xml("Coding/Uni/ElanConversion/files/280117_10_Hamid_Clandividing.eaf"), distribute_duration_among_children = FALSE)
 typeof(annotations_df)
