@@ -17,7 +17,7 @@
         <String>id@</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>4532</Long>
+        <Long>6460</Long>
     </pref>
     <pref key="ExportTabDialog.SelectTiersMode">
         <String>Tier</String>
@@ -105,7 +105,7 @@
         <Float>325.0</Float>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>4532</Long>
+        <Long>4510</Long>
     </pref>
     <prefGroup key="BAS - WebMAUS Basic">
         <pref key="LANGUAGE">
@@ -123,10 +123,10 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>0</Long>
+        <Long>3837</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>2175</Long>
+        <Long>4510</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="id@">
