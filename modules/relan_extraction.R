@@ -1,4 +1,4 @@
-
+library(dplyr)
 #' Recursive helper function to find time slots by following ANNOTATION_REF chains
 #'
 #' @param annotation_id The ID of the annotation for which to find time slots.
@@ -108,7 +108,7 @@ extract_annotations <- function(elan_xml, distribute_duration_among_children = F
   annotations <- xml2::xml_find_all(elan_xml, "//TIER/*/*")
   
   data <- lapply(annotations, function(node) {
-    tier_node <- xml2::xml_parent(xml_parent(node))
+    tier_node <- xml2::xml_parent(xml2::xml_parent(node))
     annotation_id <- xml2::xml_attr(node, "ANNOTATION_ID")
     
     # using the helper function to find time slot references
@@ -164,5 +164,5 @@ extract_annotations <- function(elan_xml, distribute_duration_among_children = F
 }
 
 # example for testing
-annotations_df <- extract_annotations(xml2::read_xml("Downloads/timeAlignableTest.eaf"), distribute_duration_among_children = TRUE, wide_format = TRUE)
+annotations_df <- extract_annotations(xml2::read_xml("files/Yali_pear_story_Lince_geGRAIDed.eaf"), distribute_duration_among_children = TRUE, wide_format = TRUE)
 typeof(annotations_df)
