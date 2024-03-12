@@ -1,0 +1,97 @@
+---
+title: "ElanExtraction"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## Working directory
+
+```{r}
+# Set the directory to where the R code is located 
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
+```
+
+## Packages needed 
+
+```{r}
+# install.packages("tidyverse")
+# install.packages("xml2")
+
+library(tidyverse)
+library(xml2)
+
+```
+
+```{r}
+
+# Recursive helper function to find time slots by following ANNOTATION_REF chains
+find_time_slots_recursively <- function(annotation_id, id_to_time_slot, id_to_annotation_ref) {
+  if (annotation_id %in% names(id_to_time_slot)) {
+    return(id_to_time_slot[[annotation_id]])
+  } else if (annotation_id %in% names(id_to_annotation_ref)) {
+    next_ref <- id_to_annotation_ref[[annotation_id]]
+    return(find_time_slots_recursively(next_ref, id_to_time_slot, id_to_annotation_ref))
+  } else {
+    return(c(NA, NA)) # Return NA values if no time slots are found after following the chain
+  }
+}
+
+# Function to extract annotations and their details, including inferred time slots for REF_ANNOTATION
+extract_annotations <- function(elan_xml) {
+  # Build mappings
+  alignable_annotations <- xml_find_all(elan_xml, "//ALIGNABLE_ANNOTATION")
+  id_to_time_slot <- setNames(
+    lapply(alignable_annotations, function(node) c(xml_attr(node, "TIME_SLOT_REF1"), xml_attr(node, "TIME_SLOT_REF2"))),
+    sapply(alignable_annotations, function(node) xml_attr(node, "ANNOTATION_ID"))
+  )
+  
+  ref_annotations <- xml_find_all(elan_xml, "//REF_ANNOTATION")
+  id_to_annotation_ref <- setNames(
+    sapply(ref_annotations, function(node) xml_attr(node, "ANNOTATION_REF")),
+    sapply(ref_annotations, function(node) xml_attr(node, "ANNOTATION_ID"))
+  )
+  
+  # Extract all annotations
+  annotations <- xml_find_all(elan_xml, "//TIER/*/*") # Matches both ALIGNABLE_ANNOTATION and REF_ANNOTATION
+  
+  data <- lapply(annotations, function(node) {
+    tier_node <- xml_parent(xml_parent(node))
+    annotation_id <- xml_attr(node, "ANNOTATION_ID")
+    
+    # Determine TIME_SLOT_REF1 and TIME_SLOT_REF2
+    time_slots <- find_time_slots_recursively(annotation_id, id_to_time_slot, id_to_annotation_ref)
+    
+    tibble(
+      LANG_REF = xml_attr(tier_node, "DEFAULT_LOCALE"),
+      LINGUISTIC_TYPE_REF = xml_attr(tier_node, "LINGUISTIC_TYPE_REF"),
+      PARENT_REF = xml_attr(tier_node, "PARENT_REF"),
+      TIER_ID = xml_attr(tier_node, "TIER_ID"),
+      ANNOTATION_ID = annotation_id,
+      ANNOTATION_REF = xml_attr(node, "ANNOTATION_REF"),
+      PREVIOUS_ANNOTATION = xml_attr(node, "PREVIOUS_ANNOTATION"),
+      TIME_SLOT_REF1 = time_slots[1],
+      TIME_SLOT_REF2 = time_slots[2],
+      ANNOTATION_VALUE = xml_text(xml_find_first(node, ".//ANNOTATION_VALUE")),
+      anno_ref_numeric = ifelse(grepl("^ann\\d+$", annotation_id), as.numeric(gsub("ann", "", annotation_id, fixed = TRUE)), NA_real_)
+    )
+  })
+  
+  do.call(rbind, data) %>% as_tibble()
+}
+
+elan_file <- read_xml("files/280117_10_Hamid_Clandividing.eaf")
+
+# Extract annotations into a DataFrame
+annotations_df <- extract_annotations(elan_file)
+
+
+```
+
