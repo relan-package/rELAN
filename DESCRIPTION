@@ -11,9 +11,9 @@ Description: Converts files produced by the annotation tool ELAN (.eaf) into R d
     ELAN (Version 6.7) [Computer software]. 2023. 
     Nijmegen: Max Planck Institute for Psycholinguistics, The Language Archive. 
     Retrieved from https://archive.mpi.nl/tla/elan
-URL: https://github.com/nicolas-werner/ElanConversion
-BugReport: https://github.com/nicolas-werner/ElanConversion/issues
-License: use_mit_license()
+URL: https://github.com/nicolas-werner/rELAN
+BugReport: https://github.com/nicolas-werner/rELAN/issues
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
