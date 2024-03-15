@@ -35,8 +35,8 @@ library(rELAN)
 
 exctract_annotations("ELAN_files/frog_story.eaf")
 
-extract_annotations("ELAN_files/pear_story.eaf", distribute_duration_among_children = TRUE
-                    , wide_format = TRUE)
+extract_annotations("ELAN_files/pear_story.eaf", distribute_duration_among_children = TRUE,
+                    wide_format = TRUE)
 ```
 
 ## Why rELAN / more Information
