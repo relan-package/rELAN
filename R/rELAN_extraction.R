@@ -1,4 +1,3 @@
-library(dplyr)
 #' Recursive helper function to find time slots by following ANNOTATION_REF chains
 #'
 #' @param annotation_id The ID of the annotation for which to find time slots.
@@ -30,13 +29,13 @@ find_time_slots_recursively <- function(annotation_id, id_to_time_slot, id_to_an
 #' @param time_slot_ref1 The reference ID for the first time slot.
 #' @param time_slot_ref2 The reference ID for the second time slot.
 #' @param time_slot_to_value A named vector mapping time slot IDs to their time values.
-#' @return The absolute duration calculated as the difference between the time values of 
+#' @return The absolute duration calculated as the difference between the time values of
 #'         the second and first time slots. Returns NA if either time slot reference does not
 #'         have an associated time value.
 calculate_duration <- function(time_slot_ref1, time_slot_ref2, time_slot_to_value) {
   time_value1 <- as.numeric(time_slot_to_value[[time_slot_ref1]])
   time_value2 <- as.numeric(time_slot_to_value[[time_slot_ref2]])
-  
+
   if (is.na(time_value1) || is.na(time_value2)) {
     return(NA)
   } else {
@@ -84,41 +83,41 @@ extract_annotations <- function(elan_xml, distribute_duration_among_children = F
   if (!inherits(elan_xml, "xml_document")) {
     stop("Input must be an XML document object created by xml2::read_xml().")
   }
-  
+
   # Extract and prepare mappings
   time_slots <- xml2::xml_find_all(elan_xml, "//TIME_SLOT")
   time_slot_to_value <- setNames(
     sapply(time_slots, xml2::xml_attr, "TIME_VALUE", USE.NAMES = FALSE),
     sapply(time_slots, xml2::xml_attr, "TIME_SLOT_ID", USE.NAMES = FALSE)
   )
-  
+
   alignable_annotations <- xml2::xml_find_all(elan_xml, "//ALIGNABLE_ANNOTATION")
-  
+
   id_to_time_slot <- setNames(
     lapply(alignable_annotations, function(node) c(xml2::xml_attr(node, "TIME_SLOT_REF1"), xml2::xml_attr(node, "TIME_SLOT_REF2"))),
     sapply(alignable_annotations, function(node) xml2::xml_attr(node, "ANNOTATION_ID"))
   )
-  
+
   ref_annotations <- xml2::xml_find_all(elan_xml, "//REF_ANNOTATION")
   id_to_annotation_ref <- setNames(
     sapply(ref_annotations, function(node) xml2::xml_attr(node, "ANNOTATION_REF")),
     sapply(ref_annotations, function(node) xml2::xml_attr(node, "ANNOTATION_ID"))
   )
-  
+
   annotations <- xml2::xml_find_all(elan_xml, "//TIER/*/*")
-  
+
   data <- lapply(annotations, function(node) {
     tier_node <- xml2::xml_parent(xml2::xml_parent(node))
     annotation_id <- xml2::xml_attr(node, "ANNOTATION_ID")
-    
-    # using the helper function to find time slot references
+
+    # Use the helper function to find time slot references
     time_slots <- find_time_slots_recursively(annotation_id, id_to_time_slot, id_to_annotation_ref)
     time_slot_ref1 <- time_slots[1]
     time_slot_ref2 <- time_slots[2]
-    
-    # Looking up time values for the time slot references
+
+    # Look up time values for the time slot references
     duration <- calculate_duration(time_slot_ref1, time_slot_ref2, time_slot_to_value)
-    
+
     dplyr::tibble(
       LANG_REF = xml2::xml_attr(tier_node, "DEFAULT_LOCALE"),
       LINGUISTIC_TYPE_REF = xml2::xml_attr(tier_node, "LINGUISTIC_TYPE_REF"),
@@ -135,34 +134,47 @@ extract_annotations <- function(elan_xml, distribute_duration_among_children = F
       TIME_SLOT_REF2_TIME_VALUE = time_slot_to_value[[time_slot_ref2]],
       DURATION = duration)
   })
-  
-  # Preparing the data frame from the list of annotations
+
+  # Prepare the df from the list of annotations
   annotations_df <- do.call(rbind, data) %>% dplyr::as_tibble()
-  
-  # Conditionally distributing duration among child annotations if requested
+
+  # Conditionally distribute duration among child annotations
   if (distribute_duration_among_children) {
     annotations_df <- annotations_df %>%
       dplyr::group_by(ANNOTATION_REF, TIER_ID) %>%
       dplyr::mutate(
-        Child_Count = n(),
-        DURATION = if_else(!is.na(ANNOTATION_REF) & Child_Count > 0, DURATION / Child_Count, DURATION)
+        Child_Count = dplyr::n(),
+        DURATION = dplyr::if_else(!is.na(ANNOTATION_REF) & Child_Count > 0, DURATION / Child_Count, DURATION)
       ) %>%
       dplyr::ungroup() %>%
-      dplyr::select(-Child_Count) 
+      dplyr::select(-Child_Count)
   }
-  
+
+  # Conditionally turn df into wide format with every tier as column
   if (wide_format) {
     annotations_df <- annotations_df %>%
       tidyr::pivot_wider(
         names_from = TIER_ID,
         values_from = ANNOTATION_VALUE,
-        values_fill = list(ANNOTATION_VALUE = NA)
-      )
+        values_fill = list(ANNOTATION_VALUE = NA)) %>%
+
+      # Deselect columns to prepare df for row merge
+      dplyr::select(-c(LANG_REF, LINGUISTIC_TYPE_REF, PARENT_REF,
+                       ANNOTATION_REF, ANNOTATION_ID, PREVIOUS_ANNOTATION,
+                       TIME_SLOT_REF1, TIME_SLOT_REF2)) %>%
+
+      # Merge rows with ANNOTATION_VALUEs replacing NAs
+      dplyr::group_by(TIME_SLOT_REF1_VALUE, TIME_SLOT_REF2_VALUE) %>%
+      dplyr::summarise(across(everything(),
+                              ~coalesce(.x) %>%
+                                `[`(!is.na(.)) %>%
+                                `[`(1) )) %>%
+      dplyr::ungroup()
   }
-  
+
   return(annotations_df)
 }
 
-# example for testing
-annotations_df <- extract_annotations(xml2::read_xml("files/Yali_pear_story_Lince_geGRAIDed.eaf"), distribute_duration_among_children = TRUE, wide_format = TRUE)
+# Example for testing
+annotations_df <- extract_annotations(xml2::read_xml("internal/ELAN_test_files/280117_10_Hamid_Clandividing.eaf"), distribute_duration_among_children = TRUE, wide_format = FALSE)
 typeof(annotations_df)
