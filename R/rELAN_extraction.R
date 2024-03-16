@@ -9,7 +9,7 @@
 #'
 #' @importFrom magrittr %>%
 #' @importFrom xml2 read_xml xml_find_all xml_attr xml_text xml_find_first
-#' @importFrom dplyr tibble filter group_by ungroup mutate select summarise across coalesce n
+#' @importFrom dplyr tibble filter group_by ungroup mutate select summarise across coalesce n row_number
 #' @importFrom tidyr pivot_wider
 #'
 #' @examples
@@ -86,7 +86,7 @@ extract_annotations <- function(file_path, wide_format = FALSE) {
   annotations_with_counts <- annotations_df %>%
     dplyr::group_by(ANNOTATION_REF, TIER_ID) %>%
     dplyr::mutate(count = dplyr::n(),
-                  rank = row_number()) %>% # Rank of each annotation within its group by index
+                  rank = dplyr::row_number()) %>% # Rank of each annotation within its group by index
     dplyr::ungroup()
 
   max_iterations <- 10
