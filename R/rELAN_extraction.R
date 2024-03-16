@@ -85,7 +85,7 @@ extract_annotations <- function(file_path, wide_format = FALSE) {
   # Group annotations by ANNOTATION_REF and TIER_ID, and count them
   annotations_with_counts <- annotations_df %>%
     dplyr::group_by(ANNOTATION_REF, TIER_ID) %>%
-    dplyr::mutate(count = n(),
+    dplyr::mutate(count = dplyr::n(),
                   rank = row_number()) %>% # Rank of each annotation within its group by index
     dplyr::ungroup()
 
