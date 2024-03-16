@@ -9,7 +9,7 @@
 #'
 #' @importFrom magrittr %>%
 #' @importFrom xml2 read_xml xml_find_all xml_attr xml_text xml_find_first
-#' @importFrom dplyr tibble filter group_by ungroup mutate select summarise across coalesce
+#' @importFrom dplyr tibble filter group_by ungroup mutate select summarise across coalesce n
 #' @importFrom tidyr pivot_wider
 #'
 #' @examples
