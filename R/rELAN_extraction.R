@@ -132,7 +132,7 @@ extract_annotations <- function(file_path, wide_format = FALSE) {
 
   # Removing columns that are not necessary
   annotations_with_adjusted_time_slots <- annotations_with_adjusted_time_slots %>%
-    dplyr::select(-rank, -count, -TIME_SLOT_REF1, -TIME_SLOT_REF2)
+    dplyr::select(-rank, -count)
 
 
   if (wide_format) {
