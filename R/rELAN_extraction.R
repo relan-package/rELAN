@@ -85,17 +85,17 @@ extract_annotations <- function(file_path, wide_format = FALSE) {
   }
 
   # Function to convert milliseconds to "minutes:seconds:milliseconds" format
-
   ms_to_min_sec_ms <- function(ms) {
     minutes <- floor(ms / 60000)
     seconds <- floor((ms %% 60000) / 1000)
-    milliseconds <- ms %% 1000
+    milliseconds <- floor(ms %% 1000)
 
     sprintf("%s:%s.%s",
             stringr::str_pad(minutes, width = 2, pad = "0"),
             stringr::str_pad(seconds, width = 2, pad = "0"),
             stringr::str_pad(milliseconds, width = 3, pad = "0"))
   }
+
   # Group annotations by ANNOTATION_REF and TIER_ID, and count them
   annotations_with_counts <- annotations_df %>%
     dplyr::group_by(ANNOTATION_REF, TIER_ID) %>%
@@ -157,9 +157,9 @@ extract_annotations <- function(file_path, wide_format = FALSE) {
   # Convert time values to "minutes:seconds:milliseconds" format
   annotations_with_adjusted_time_slots <- annotations_with_adjusted_time_slots %>%
     dplyr::mutate(
-      TIME_SLOT_REF1_VALUE = ms_to_min_sec_ms(lubridate::ms(TIME_SLOT_REF1_VALUE)),
-      TIME_SLOT_REF2_VALUE = ms_to_min_sec_ms(lubridate::ms(TIME_SLOT_REF2_VALUE)),
-      DURATION = ms_to_min_sec_ms(lubridate::ms(DURATION))
+      TIME_SLOT_REF1_VALUE = ms_to_min_sec_ms(TIME_SLOT_REF1_VALUE),
+      TIME_SLOT_REF2_VALUE = ms_to_min_sec_ms(TIME_SLOT_REF2_VALUE),
+      DURATION = ms_to_min_sec_ms(DURATION)
     )
 
 
