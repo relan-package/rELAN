@@ -55,3 +55,5 @@ So far, one of the most common ways to import the annotation data into R, was by
 3.  Importing with rELAN delivers you every information of the ELAN file concerning the annotations. The tab-delimited text file only contains limited data relating to the annotations.
 
 The default of `extract_annotations()` produces a long `data.frame` with all data relating to the annotations. However, you can get a `data.frame` with fewer data, where each tier has its own column, by using the argument `wide_format = TRUE`.
+
+While there are other packages available in R and Python for working with ELAN files directly, rELAN stands out for its ability to calculate the time values from reference annotations.

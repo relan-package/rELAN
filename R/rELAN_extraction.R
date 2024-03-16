@@ -11,6 +11,8 @@
 #' @importFrom xml2 read_xml xml_find_all xml_attr xml_text xml_find_first
 #' @importFrom dplyr tibble filter group_by ungroup mutate select summarise across coalesce n row_number
 #' @importFrom tidyr pivot_wider
+#' @importFrom lubridate ms
+#' @importFrom stringr str_pad
 #'
 #' @examples
 #' annotations_df <- extract_annotations("path/to/elan/file.eaf", wide_format = FALSE)
@@ -82,6 +84,18 @@ extract_annotations <- function(file_path, wide_format = FALSE) {
     }
   }
 
+  # Function to convert milliseconds to "minutes:seconds:milliseconds" format
+
+  ms_to_min_sec_ms <- function(ms) {
+    minutes <- floor(ms / 60000)
+    seconds <- floor((ms %% 60000) / 1000)
+    milliseconds <- ms %% 1000
+
+    sprintf("%s:%s.%s",
+            stringr::str_pad(minutes, width = 2, pad = "0"),
+            stringr::str_pad(seconds, width = 2, pad = "0"),
+            stringr::str_pad(milliseconds, width = 3, pad = "0"))
+  }
   # Group annotations by ANNOTATION_REF and TIER_ID, and count them
   annotations_with_counts <- annotations_df %>%
     dplyr::group_by(ANNOTATION_REF, TIER_ID) %>%
@@ -133,12 +147,21 @@ extract_annotations <- function(file_path, wide_format = FALSE) {
                        TIME_SLOT_REF1, TIME_SLOT_REF2)) %>%
       # Merge rows with ANNOTATION_VALUEs replacing NAs
       dplyr::group_by(TIME_SLOT_REF1_VALUE, TIME_SLOT_REF2_VALUE) %>%
-      dplyr::summarise(across(tidyselect::everything(),
-                              ~dplyr::coalesce(.x) %>%
-                                `[`(!is.na(.)) %>%
-                                `[`(1) )) %>%
+      dplyr::summarise(dplyr::across(tidyselect::everything(),
+                                     ~dplyr::coalesce(.x) %>%
+                                       `[`(!is.na(.)) %>%
+                                       `[`(1) )) %>%
       dplyr::ungroup()
   }
+
+  # Convert time values to "minutes:seconds:milliseconds" format
+  annotations_with_adjusted_time_slots <- annotations_with_adjusted_time_slots %>%
+    dplyr::mutate(
+      TIME_SLOT_REF1_VALUE = ms_to_min_sec_ms(lubridate::ms(TIME_SLOT_REF1_VALUE)),
+      TIME_SLOT_REF2_VALUE = ms_to_min_sec_ms(lubridate::ms(TIME_SLOT_REF2_VALUE)),
+      DURATION = ms_to_min_sec_ms(lubridate::ms(DURATION))
+    )
+
 
   return(annotations_with_adjusted_time_slots)
 }
