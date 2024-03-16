@@ -130,9 +130,9 @@ extract_annotations <- function(file_path, wide_format = FALSE) {
     iterations <- iterations + 1
   }
 
-  # Removing "rank" and "count" column
+  # Removing columns that are not necessary
   annotations_with_adjusted_time_slots <- annotations_with_adjusted_time_slots %>%
-    dplyr::select(-rank, -count)
+    dplyr::select(-rank, -count, -TIME_SLOT_REF1, -TIME_SLOT_REF2)
 
 
   if (wide_format) {
@@ -160,6 +160,10 @@ extract_annotations <- function(file_path, wide_format = FALSE) {
       TIME_SLOT_REF1_VALUE = ms_to_min_sec_ms(TIME_SLOT_REF1_VALUE),
       TIME_SLOT_REF2_VALUE = ms_to_min_sec_ms(TIME_SLOT_REF2_VALUE),
       DURATION = ms_to_min_sec_ms(DURATION)
+    ) %>%
+    dplyr::rename(
+      `Start Time (mm:ss.SSS)` = TIME_SLOT_REF1_VALUE,
+      `End Time (mm:ss.SSS)` = TIME_SLOT_REF2_VALUE
     )
 
 
