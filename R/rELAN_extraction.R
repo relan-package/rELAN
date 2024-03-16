@@ -116,6 +116,11 @@ extract_annotations <- function(file_path, wide_format = FALSE) {
     iterations <- iterations + 1
   }
 
+  # Removing "rank" and "count" column
+  annotations_with_adjusted_time_slots <- annotations_with_adjusted_time_slots %>%
+    dplyr::select(-rank, -count)
+
+
   if (wide_format) {
     annotations_with_adjusted_time_slots <- annotations_with_adjusted_time_slots %>%
       tidyr::pivot_wider(
