@@ -9,7 +9,8 @@
 ## Overview
 
 rELAN provides a tool to import ELAN files (.eaf), which are generated
-by the annotation software ELAN, directly into R as `data.frame`s.
+by the annotation software ELAN<sup>1</sup>, directly into R as
+`data.frame`s.
 
 ## Installation
 
@@ -31,10 +32,9 @@ data than the original extracted `data.frame`.
 ``` r
 library(rELAN)
 
-exctract_annotations("ELAN_files/frog_story.eaf")
+frog_story_annotations <- extract_annotations("ELAN_files/frog_story.eaf")
 
-extract_annotations("ELAN_files/pear_story.eaf",
-                    wide_format = TRUE)
+pear_story_annotations <- extract_annotations("ELAN_files/pear_story.eaf", wide_format = TRUE)
 ```
 
 ## Why rELAN / more Information
@@ -61,3 +61,9 @@ using the argument `wide_format = TRUE`.
 While there are other packages available in R and Python for working
 with ELAN files directly, rELAN stands out for its ability to calculate
 the time values from reference annotations.
+
+## Reference
+
+<sup>1</sup> ELAN (Version 6.7) \[Computer software\]. 2023. Nijmegen:
+Max Planck Institute for Psycholinguistics, The Language Archive.
+Retrieved from <https://archive.mpi.nl/tla/elan>

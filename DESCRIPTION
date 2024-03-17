@@ -3,7 +3,7 @@ Title: Convert ELAN Files into data.frame Structures
 Version: 0.0.0.9000
 Authors@R: c(
     person("Katja", "Wiesner", email = "kati.wiesner@gmx.de", role = c("aut", "cre")),
-    person("Nicolas", "Werner", email = "nwerner4@smail.uni-koeln.de", role = "auth"),
+    person("Nicolas", "Werner", email = "nwerner4@smail.uni-koeln.de", role = "aut"),
     person("Fahime", "Same", email = "fahimeh.same@gmail.com", role = "ctb"))
 Description: Converts files produced by the annotation tool ELAN (.eaf) into R data.frameS.
     Optionally calculates duration of annotations which are not time-alignable
