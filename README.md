@@ -1,5 +1,4 @@
 
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # rELAN
@@ -24,19 +23,17 @@ devtools::install_github("relan-package/rELAN")
 ## Usage
 
 Depending on your working directory, the first argument is the file
-name, or path and file name, as a string. To calculate the duration and
-time slots of non-alignable annotations set
-`distribute_duration_among_children = TRUE`. `wide_format = TRUE`
-returns a wide `data.frame` where each tier has its own column and rows
-are merged, so `ANNOTATION_VALUE`s replace `NA`s. This will also have
-fewer data than the original extracted `data.frame`.
+name, or path and file name, as a string. `wide_format = TRUE` returns a
+wide `data.frame` where each tier has its own column and rows are
+merged, so `ANNOTATION_VALUE`s replace `NA`s. This will also have fewer
+data than the original extracted `data.frame`.
 
 ``` r
 library(rELAN)
 
 exctract_annotations("ELAN_files/frog_story.eaf")
 
-extract_annotations("ELAN_files/pear_story.eaf", distribute_duration_among_children = TRUE,
+extract_annotations("ELAN_files/pear_story.eaf",
                     wide_format = TRUE)
 ```
 
@@ -60,3 +57,7 @@ The default of `extract_annotations()` produces a long `data.frame` with
 all data relating to the annotations. However, you can get a
 `data.frame` with fewer data, where each tier has its own column, by
 using the argument `wide_format = TRUE`.
+
+While there are other packages available in R and Python for working
+with ELAN files directly, rELAN stands out for its ability to calculate
+the time values from reference annotations.
