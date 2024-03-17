@@ -46,6 +46,9 @@ docs/
 # translation temp files
 po/*~
 
+# internal 
+Internal/
+
 # RStudio Connect folder
 rsconnect/
 =======
